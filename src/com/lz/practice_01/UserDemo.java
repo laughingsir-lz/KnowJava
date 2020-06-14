@@ -3,14 +3,18 @@ package com.lz.practice_01;
 public class UserDemo {
 
 	public static void main(String[] args) {
+
 		// TODO Auto-generated method stub
-		User user1 = new User("001", "1ºÅÑ¡ÊÖ");
-		User user2 = new User("002", "2ºÅÑ¡ÊÖ");
-		User user3 = new User("003", "3ºÅÑ¡ÊÖ");
+		User user1 = new User("001", "123456");
+		user1.setUserName("1å·é€‰æ‰‹");
+		User user2 = new User("002", "123456");
+		user2.setUserName("2å·é€‰æ‰‹");
+		User user3 = new User("003", "123456");
+		user3.setUserName("3å·é€‰æ‰‹");
 		System.out.println(user1);
 		System.out.println(user2);
 		System.out.println(user3);
-		System.out.println("ÓÃ»§×ÜÊı£º"+User.totalUser);
+		System.out.println("ç”¨æˆ·æ€»æ•°ï¼š"+User.totalUser);
 	}
 
 }
