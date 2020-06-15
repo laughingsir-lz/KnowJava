@@ -10,5 +10,9 @@ public class ExceptionDemo {
         MyThread myThread = new MyThread();
         //调用Thread类的start方法，JVM会自动调用run方法
         myThread.start();
+        //主线程随机打印
+        for (int i = 0; i<10000;i++){
+            System.out.println("main ====>"+ i);
+        }
     }
 }
