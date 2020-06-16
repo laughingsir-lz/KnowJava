@@ -9,11 +9,9 @@ public class FiltrationDemo {
         //过滤数组
         String[] filtrArr = {"卧槽","他妈的","sb"};
         //输入字符串
-        String string = "他妈的,你揍他";
+        String string = "他妈的,你揍他,sb";
         //替换字符串
         String re="";
-        //输出字符串
-        String s="";
         //遍历过滤数组，对每一个字符串都做过滤判断
         for (int i = 0; i <filtrArr.length ; i++) {
             //得到过滤字符串
@@ -23,11 +21,10 @@ public class FiltrationDemo {
                     re += "*";
                 }
                 //完成字符串替代
-                s =string.replace(filtrArr[i],re);
-            }else {
-                s = string;
-            }
+                string = string.replace(filtrArr[i],re);
+                re="";
+           }
         }
-        System.out.println(s);
+        System.out.println(string);
     }
 }
