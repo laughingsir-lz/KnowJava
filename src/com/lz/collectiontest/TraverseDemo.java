@@ -1,7 +1,5 @@
 package com.lz.collectiontest;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -32,7 +30,6 @@ public class TraverseDemo {
             System.out.println(iterator.next());
         }
         System.out.println("---------迭代器-----------");
-
         //for-each  增强for循环
         for (String ele:list) {
             System.out.println(ele);
