@@ -10,10 +10,10 @@ public class FiltrationDemo {
         String[] filtrArr = {"卧槽","他妈的","sb"};
         //输入字符串
         String string = "他妈的,你揍他,sb";
-        //替换字符串
-        String re="";
         //遍历过滤数组，对每一个字符串都做过滤判断
         for (int i = 0; i <filtrArr.length ; i++) {
+            //替换字符串
+            String re="";
             //得到过滤字符串
             if (string.contains(filtrArr[i])){
                 //生成替代字符串
@@ -22,7 +22,6 @@ public class FiltrationDemo {
                 }
                 //完成字符串替代
                 string = string.replace(filtrArr[i],re);
-                re="";
            }
         }
         System.out.println(string);
