@@ -1,4 +1,4 @@
-package com.lz.generalpractice.practice_2;
+package com.lz.generalpractice_1.practice_2;
 
 /**
  * 打印接口实现类

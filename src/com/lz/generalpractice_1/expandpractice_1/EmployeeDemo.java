@@ -1,4 +1,4 @@
-package com.lz.generalpractice.expandpractice_1;
+package com.lz.generalpractice_1.expandpractice_1;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.ParseException;

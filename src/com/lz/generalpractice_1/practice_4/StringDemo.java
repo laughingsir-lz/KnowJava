@@ -1,4 +1,4 @@
-package com.lz.generalpractice.practice_4;
+package com.lz.generalpractice_1.practice_4;
 
 /**
  * 提取字符串数组中的数字 求和 求平均值

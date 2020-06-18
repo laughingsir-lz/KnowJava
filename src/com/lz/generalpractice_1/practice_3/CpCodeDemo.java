@@ -1,4 +1,4 @@
-package com.lz.generalpractice.practice_3;
+package com.lz.generalpractice_1.practice_3;
 
 public class CpCodeDemo {
     public static String getCpCode(double orderFee,String province){

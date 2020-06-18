@@ -1,4 +1,4 @@
-package com.lz.generalpractice.practice_1;
+package com.lz.generalpractice_1.practice_1;
 
 /**
  *UseCompute类
