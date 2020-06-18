@@ -6,12 +6,12 @@ package com.lz.practice_03;
 public class Item {
     private String name;
     private double price;
-    public Item(){}
-    public Item(String name,double price){
-        this.name = name;
-        this.price = price;
+    public Item(){
     }
-
+    public Item(String n,double p){
+        this.name = n;
+        this.price = p;
+    }
     public String getName() {
         return name;
     }

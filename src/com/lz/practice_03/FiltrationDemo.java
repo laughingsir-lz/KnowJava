@@ -9,13 +9,13 @@ public class FiltrationDemo {
         //过滤数组
         String[] filtrArr = {"卧槽","他妈的","sb"};
         //输入字符串
-        String string = "他妈的,你揍他,sb";
+        String string = "他妈的,你揍他,sb。他妈的";
         //遍历过滤数组，对每一个字符串都做过滤判断
         for (int i = 0; i <filtrArr.length ; i++) {
-            //替换字符串
-            String re="";
             //得到过滤字符串
             if (string.contains(filtrArr[i])){
+                //替换字符串
+                String re="";
                 //生成替代字符串
                 for (int j = 0; j <filtrArr[i].length() ; j++) {
                     re += "*";

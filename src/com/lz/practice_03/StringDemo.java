@@ -1,15 +1,15 @@
 package com.lz.practice_03;
 
 /**
- * String中的常用方法的调用（9个）
+ * String中的常用方法的调用（12个）
  */
-public class StringDemo {
-    public static void main(String[] args) {
-        //直接赋值一个string
-        String string = "it is a wolf";
-        //构造器创建string1
-        String string1 = new String("春哥");
-        //返回字符串长度
+        public class StringDemo {
+            public static void main(String[] args) {
+                //直接赋值一个string
+                String string = "it is a wolf";
+                //构造器创建string1
+                String string1 = new String("春哥");
+                //返回字符串长度
         System.out.println(string.length());
         //返回指定索引位置的字符
         System.out.println(string.charAt(3));
@@ -29,5 +29,12 @@ public class StringDemo {
         System.out.println(string.substring(3, 5));
         //判断是否包含指定的子字符串
         System.out.println(string.contains("is"));
+        //按照指定的空格符分割字符串
+        String[] strings = string.split(" ");
+        for (int i = 0; i < strings.length; i++) {
+            System.out.println(strings[i]);
+        }
+        //去掉字符串中的空格符
+        System.out.println(string.trim());
     }
 }

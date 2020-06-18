@@ -45,8 +45,5 @@ public class BigDecimalDemo {
         //System.out.println(num1.divide(num2).setScale(2, RoundingMode.HALF_UP));
         //使用divide(BigDecimal divisor,int scale,int RoundingMode)
         System.out.println(num1.divide(num2, 2, RoundingMode.HALF_UP));
-
-
-
     }
 }

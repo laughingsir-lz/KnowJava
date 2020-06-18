@@ -1,7 +1,12 @@
 package com.lz.test;
 
+import sun.util.resources.hr.CalendarData_hr;
+
+import java.util.List;
+
 public class TestDemo {
     public static void main(String[] args){
+
 //        StringBuilder stringBuilder = new StringBuilder();
 //        stringBuilder.append("123").append(456);
         StringBuffer ss = new StringBuffer();
@@ -25,6 +30,9 @@ public class TestDemo {
             }
         }while (num>0);
         System.out.println(string);
+        char c = 80;
+        System.out.println(c);
+
     }
 
 }
