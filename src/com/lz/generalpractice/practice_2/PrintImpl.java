@@ -4,7 +4,7 @@ package com.lz.generalpractice.practice_2;
  * 打印接口实现类
  */
 public class PrintImpl implements ILowercaseLetter, IUppercaseLetter {
-    private String str = "t 65";
+    private String str = "time is life";
     private String string = "THis is LOWer";
 
     /**
@@ -17,6 +17,7 @@ public class PrintImpl implements ILowercaseLetter, IUppercaseLetter {
         for (int i = 0; i < ch.length; i++) {
             if (ch[i] > 64 && ch[i] < 91) {
                 ch[i] = (char) (ch[i] + 32);
+
             }
             sb.append(ch[i]);
         }
