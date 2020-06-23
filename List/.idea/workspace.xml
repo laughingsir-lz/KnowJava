@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="156fa42d-0a3a-45bd-9448-d83cfcaae6b9" name="Default Changelist" comment="2020/6/22集合练习题">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="List" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1dcRQcGhpwtOt6B76vJgrFxW4xp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ABA\wolfCode\List\src\com\lz\list\practice04" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StudentDemo">
+    <configuration name="ArrayListDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lz.list.generalpractice01.ArrayListDemo" />
+      <module name="List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.list.generalpractice01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lz.list.practice07.ArrayListDemo3" />
+      <module name="List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.list.practice07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lz.list.practice05.LinkedListDemo" />
+      <module name="List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.list.practice05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lz.list.practice06.PointDemo" />
+      <module name="List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.list.practice06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lz.list.generalpractice02.StudentDemo" />
+      <module name="List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.list.generalpractice02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StudentDemo" />
+        <item itemvalue="Application.ArrayListDemo (1)" />
+        <item itemvalue="Application.ArrayListDemo3" />
+        <item itemvalue="Application.PointDemo" />
+        <item itemvalue="Application.LinkedListDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\laughingsir_lz\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="156fa42d-0a3a-45bd-9448-d83cfcaae6b9" name="Default Changelist" comment="" />
+      <created>1592722379865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592722379865</updated>
+      <workItem from="1592722383743" duration="2612000" />
+      <workItem from="1592725109035" duration="107000" />
+      <workItem from="1592789553857" duration="20246000" />
+      <workItem from="1592814165816" duration="4070000" />
+      <workItem from="1592819652786" duration="140000" />
+      <workItem from="1592819812201" duration="9876000" />
+      <workItem from="1592834128438" duration="1946000" />
+      <workItem from="1592836151145" duration="266000" />
+      <workItem from="1592873255807" duration="1540000" />
+      <workItem from="1592875583500" duration="1125000" />
+    </task>
+    <task id="LOCAL-00001" summary="2020/6/22集合练习题">
+      <created>1592874009523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592874009523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020/6/22集合练习题" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/6/22集合练习题" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="801" y="355" key="#Notifications" timestamp="1592874796963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="801" y="355" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1592874796963" />
+    <state x="239" y="151" key="#com.intellij.ide.util.MemberChooser" timestamp="1592822318146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="239" y="151" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592822318146" />
+    <state x="842" y="12" key="CommitChangelistDialog2" timestamp="1592876176240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="842" y="12" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592876176240" />
+    <state x="219" y="114" key="DiffContextDialog" timestamp="1592876262242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="219" y="114" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592876262242" />
+    <state x="606" y="241" key="FileChooserDialogImpl" timestamp="1592875685851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="606" y="241" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592875685851" />
+    <state width="1591" height="324" key="GridCell.Tab.0.bottom" timestamp="1592836076653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1591" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592836076653" />
+    <state width="1591" height="324" key="GridCell.Tab.0.center" timestamp="1592836076653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1591" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592836076653" />
+    <state width="1591" height="324" key="GridCell.Tab.0.left" timestamp="1592836076653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1591" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592836076653" />
+    <state width="1591" height="324" key="GridCell.Tab.0.right" timestamp="1592836076653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1591" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592836076653" />
+    <state width="1781" height="317" key="GridCell.Tab.1.bottom" timestamp="1592834106298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1781" height="317" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592834106298" />
+    <state width="1781" height="317" key="GridCell.Tab.1.center" timestamp="1592834106298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1781" height="317" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592834106298" />
+    <state width="1781" height="317" key="GridCell.Tab.1.left" timestamp="1592834106298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1781" height="317" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592834106298" />
+    <state width="1781" height="317" key="GridCell.Tab.1.right" timestamp="1592834106298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1781" height="317" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592834106298" />
+    <state x="563" y="196" key="IDE.errors.dialog" timestamp="1592802938846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="563" y="196" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592802938846" />
+    <state x="713" y="105" key="SettingsEditor" timestamp="1592875611780">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="105" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592875611780" />
+    <state x="315" y="206" width="675" height="655" key="StructurePopup" timestamp="1592807866021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="315" y="206" width="675" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1592807866021" />
+    <state x="701" y="215" key="Vcs.Push.Dialog.v2" timestamp="1592876326887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="215" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592876326887" />
+    <state x="914" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592874811087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="914" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592874811087" />
+    <state x="391" y="185" width="838" height="1032" key="search.everywhere.popup" timestamp="1592807846801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="391" y="185" width="838" height="1032" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592807846801" />
+  </component>
+</project>
