@@ -1,5 +1,6 @@
 package com.lz.list.generalpractice02;
 
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -20,7 +21,7 @@ public class StudentDemo {
         Student student4 = new Student("Jim",30,80,"class05");
         Student student5 = new Student("Steve",28,66,"class06");
         Student student6 = new Student("Kevin",24,100,"class04");
-        //创建ArrayList对象 studentList 泛型指定为tudent
+        //创建ArrayList对象 studentList 泛型指定为Student
         ArrayList<Student> studentList = new ArrayList<>();
         //添加学生数据
         studentList.add(student1);
@@ -37,14 +38,14 @@ public class StudentDemo {
             }
         }
         System.out.println(studentList);
-        //删除Kevin这一条学生数据。
-        //普通for循环，删除一条数据，能够成功删除，但是遍历会漏掉一条紧随其后的数据
+//       // 删除Kevin这一条学生数据。
+//        //普通for循环，删除一条数据，能够成功删除，但是遍历会漏掉一条紧随其后的数据
 //        for (int i=0;i<studentList.size();i++) {
 ////            if (studentList.get(i).getName().equals("Kevin")){
 //                studentList.remove(i);
 ////            }
 //        }
-        //for循环中完成多次删除，会出现并发修改错误
+//   //     for循环中完成多次删除，会出现并发修改错误
 //        for (Student student : studentList) {
 //            studentList.remove(student);
 //        }
@@ -66,5 +67,4 @@ public class StudentDemo {
         }
         System.out.println("class05班级学生平均成绩为 "+(double)(sum/count));
     }
-
 }
