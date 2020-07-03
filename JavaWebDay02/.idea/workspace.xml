@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa6c6a86-3a27-46a8-9287-469ed46f6013" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../MyUtils/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../laughing/src/com/lz/learnning/Demo/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../laughing/src/com/lz/learnning/Demo/TestDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../laughing/src/com/lz/learnning/Demo/TestDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../laughing/test/com/lz/demo/TestDemo1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWebDay01/Resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWebDay01/lib/MyUtils.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWebDay01/src/com/lz/web/test/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWebDay01/src/com/lz/web/user/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWebDay01/test/com/lz/test/UserDaoImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWebDay01/test/com/lz/test/UserDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWebDay01/test/com/lz/web/test/PropertiesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laughing/src/com/lz/learnning/Demo/JavaLineDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../laughing/src/com/lz/learnning/Demo/JavaLineDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1e5PoEHSJC4JSef69GLlCVo7NBk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ABA\JavaWebDay02\test\com\lz\xml" />
+      <recent name="D:\ABA\JavaWebDay02" />
+      <recent name="D:\ABA\JavaWebDay02\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ABA\JavaWebDay02\test\com\lz\xml" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DOMTest3.testTransFrom">
+    <configuration name="DocumentDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DocumentDemo3" />
+      <module name="JavaWebDay02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DOMTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWebDay02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.xml.DOMTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DOMTest2.testTransForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWebDay02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.xml.DOMTest2" />
+      <option name="METHOD_NAME" value="testTransForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DOMTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWebDay02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.xml.DOMTest3" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DOMTest3.testTransFrom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWebDay02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.xml.DOMTest3" />
+      <option name="METHOD_NAME" value="testTransFrom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DOMTest3.testTransFrom" />
+        <item itemvalue="JUnit.DOMTest3" />
+        <item itemvalue="JUnit.DOMTest2.testTransForm" />
+        <item itemvalue="JUnit.DOMTest2" />
+        <item itemvalue="Application.DocumentDemo3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa6c6a86-3a27-46a8-9287-469ed46f6013" name="Default Changelist" comment="" />
+      <created>1593608653860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593608653860</updated>
+      <workItem from="1593608656722" duration="4920000" />
+      <workItem from="1593661495396" duration="9562000" />
+      <workItem from="1593687906563" duration="25000" />
+      <workItem from="1593688029237" duration="7176000" />
+      <workItem from="1593695836003" duration="389000" />
+      <workItem from="1593737805647" duration="703000" />
+      <workItem from="1593738592066" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="624" y="0" key="#Project_Structure" timestamp="1593611079965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1593611079965" />
+    <state x="1155" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1593690694673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1155" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593690694673" />
+    <state width="1871" height="451" key="GridCell.Tab.0.bottom" timestamp="1593695378285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="451" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593695378285" />
+    <state width="1871" height="451" key="GridCell.Tab.0.center" timestamp="1593695378285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="451" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593695378285" />
+    <state width="1871" height="451" key="GridCell.Tab.0.left" timestamp="1593695378285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="451" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593695378285" />
+    <state width="1871" height="451" key="GridCell.Tab.0.right" timestamp="1593695378285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="451" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593695378285" />
+    <state width="1871" height="333" key="GridCell.Tab.1.bottom" timestamp="1593614097382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593614097382" />
+    <state width="1871" height="333" key="GridCell.Tab.1.center" timestamp="1593614097382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="333" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593614097382" />
+    <state width="1871" height="333" key="GridCell.Tab.1.left" timestamp="1593614097381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="333" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593614097381" />
+    <state width="1871" height="333" key="GridCell.Tab.1.right" timestamp="1593614097382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="333" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593614097382" />
+    <state x="381" y="78" key="SettingsEditor" timestamp="1593613595358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="381" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593613595358" />
+    <state x="986" y="410" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593661935947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="986" y="410" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1593661935947" />
+    <state x="262" y="82" width="1496" height="861" key="dock-window-1" timestamp="1593692115579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="262" y="82" width="1496" height="861" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1593692115579" />
+    <state x="115" y="52" key="new project wizard" timestamp="1593737884094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="115" y="52" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593737884094" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<contacts>
+    <linkman id="1">
+        <name>小狼</name>
+        <email>wolf@wolfcode.cn</email>
+        <address>广州</address>
+        <group>Java学院</group>
+    </linkman>
+    <linkman id="2">
+        <name>小码</name>
+        <email>horse@520it.com</email>
+        <address>广州</address>
+        <group>Java学院</group>
+    </linkman>
+    <linkman id="3">
+        <name>lz</name>
+        <email>lz@qq.com</email>
+        <address>成都</address>
+        <group>java学院</group>
+    </linkman>
+    <linkman>
+        <name>小王子</name>
+        <email>xiaowangzi@qq.com</email>
+        <address>xxx街道</address>
+        <group>java</group>
+    </linkman>
+    <linkman>
+        <name>xxx</name>
+        <email>xxx@qq.com</email>
+        <address>xxx街道</address>
+        <group>java</group>
+    </linkman>
+</contacts>

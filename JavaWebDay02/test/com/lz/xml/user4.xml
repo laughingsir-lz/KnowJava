@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><contacts>
+    
+    
+    
+    <linkman>
+        <name>小王子</name>
+        <email>xiaowangzi@qq.com</email>
+        <address>xxx街道</address>
+        <group>java</group>
+    </linkman>
+    <linkman>
+        <name>xxx</name>
+        <email>xxx@qq.com</email>
+        <address>xxx街道</address>
+        <group>java</group>
+    </linkman>
+<linkman><name>zzz</name><email>zzz@qq.com</email><address>zzz街道</address><group>java</group></linkman></contacts>

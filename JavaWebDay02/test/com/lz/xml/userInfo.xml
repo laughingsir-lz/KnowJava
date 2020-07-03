@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<Users>
+<!-- id="1" 是属性-->
+<user id="1">
+<name>make</name>
+<age>18</age>
+</user>
+<user id="2" color="red">
+<name>小狼</name>
+<age>18</age>
+</user>
+<user>
+<name>小马哥</name>
+<age>18</age>
+</user>
+<!--测试注释-->
+<user>
+<name>花花</name>
+<age>18</age>
+</user>
+</Users>
