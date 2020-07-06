@@ -8,7 +8,7 @@ import java.sql.*;
  * @Description:
  * @Author: zzz
  **/
-public class JDBCUtil {
+public class JDBCUtil_01 {
     static {
         //加载驱动
         try {

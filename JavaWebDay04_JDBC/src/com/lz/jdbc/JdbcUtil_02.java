@@ -10,8 +10,8 @@ import java.util.Properties;
  * @Description:
  * @Author: zzz
  **/
-public class JdbcUtil2 {
-    private JdbcUtil2() {
+public class JdbcUtil_02 {
+    private JdbcUtil_02() {
     }
 
     private static Properties properties;
