@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author zzz
  */
-public interface IEmployeeDab {
+public interface IEmployeeDao {
     /**
      * 插入一条员工数据
      * @param employee 员工对象
@@ -32,7 +32,7 @@ public interface IEmployeeDab {
     /**
      * 查询指定id的员工信息
      * @param id 员工id
-     * @return 返回员工信息
+     * @return  Employee 返回员工对象信息
      */
     Employee selectOne(Long id);
 

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc8db80b-5f99-48cc-b93e-9b5a3cafbe2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.30-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lz/crud/dao/IEmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lz/crud/dao/impl/EmployeeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lz/crud/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/lz/crud/test/EmployeeDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay03_Mysql/test/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/Resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/src/com/lz/daopass/dao/IStudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/src/com/lz/daopass/dao/impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/src/com/lz/daopass/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/src/com/lz/jdbc/DriverDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/src/com/lz/jdbc/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/src/com/lz/jdbc/JdbcUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/test/com/lz/daopass/test/StudentDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/test/com/lz/jdbc/test/DriverDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/test/com/lz/jdbc/test/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay04_JDBC/test/com/lz/jdbc/test/LambdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWebDay01/src/com/lz/web/test/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWebDay01/src/com/lz/web/test/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWebDay01/test/com/lz/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWebDay01/test/com/lz/test/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWebDay01/test/com/lz/web/test/PropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWebDay01/test/com/lz/web/test/PropertiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/JavaLineDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/JavaLineDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laughing/test/com/lz/demo/TestDemo1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laughing/test/com/lz/demo/TestDemo1Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1eGF1xr18n9gJoH5fXJhnB9r6AI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lz.crud.test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ABA\Emplyee_Dao_CRUD\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmployeeDaoTest">
+    <configuration name="EmployeeDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Emplyee_Dao_CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.crud.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.crud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.crud.test.EmployeeDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeDaoTest.selectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Emplyee_Dao_CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.crud.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.crud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.crud.test.EmployeeDaoTest" />
+      <option name="METHOD_NAME" value="selectList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeDaoTest.selectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Emplyee_Dao_CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.crud.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.crud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.crud.test.EmployeeDaoTest" />
+      <option name="METHOD_NAME" value="selectOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeDaoTest.testDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Emplyee_Dao_CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.crud.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.crud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.crud.test.EmployeeDaoTest" />
+      <option name="METHOD_NAME" value="testDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeDaoTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Emplyee_Dao_CRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.crud.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.crud.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.crud.test.EmployeeDaoTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeDaoTest" />
+        <item itemvalue="JUnit.EmployeeDaoTest.testDate" />
+        <item itemvalue="JUnit.EmployeeDaoTest.selectList" />
+        <item itemvalue="JUnit.EmployeeDaoTest.selectOne" />
+        <item itemvalue="JUnit.EmployeeDaoTest.update" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc8db80b-5f99-48cc-b93e-9b5a3cafbe2c" name="Default Changelist" comment="" />
+      <created>1593939811567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593939811567</updated>
+      <workItem from="1593939815424" duration="13401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="582" y="183" key="#Inspections" timestamp="1593940325036">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="183" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1593940325036" />
+    <state x="108" y="323" key="#SQL_Dialects" timestamp="1593953166174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="108" y="323" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1593953166174" />
+    <state x="552" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593940111024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593940111024" />
+    <state x="718" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1593941654826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593941654826" />
+    <state x="571" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593944253284">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="571" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593944253284" />
+    <state width="935" height="121" key="GridCell.Tab.0.bottom" timestamp="1593955995702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="935" height="121" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593955995702" />
+    <state width="935" height="121" key="GridCell.Tab.0.center" timestamp="1593955995702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="935" height="121" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593955995702" />
+    <state width="935" height="121" key="GridCell.Tab.0.left" timestamp="1593955995702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="935" height="121" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593955995702" />
+    <state width="935" height="121" key="GridCell.Tab.0.right" timestamp="1593955995702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="935" height="121" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593955995702" />
+    <state x="437" y="192" key="IDE.errors.dialog" timestamp="1593955969436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="437" y="192" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593955969436" />
+    <state x="548" y="393" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593944188278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="548" y="393" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1593944188278" />
+    <state x="676" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593944177213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="228" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593944177213" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1593953281309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593953281309" />
+  </component>
+</project>
