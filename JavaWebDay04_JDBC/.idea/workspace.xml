@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09523937-cf57-4ef4-a80b-064748154c7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Emplyee_Dao_CRUD/lib/mysql-connector-java-5.1.30-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emplyee_Dao_CRUD/src/com/lz/crud/dao/IEmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emplyee_Dao_CRUD/src/com/lz/crud/dao/impl/EmployeeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emplyee_Dao_CRUD/src/com/lz/crud/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emplyee_Dao_CRUD/test/com/lz/crud/test/EmployeeDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWebDay03_Mysql/test/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lz/daopass/dao/IStudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lz/daopass/dao/impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lz/daopass/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lz/jdbc/DriverDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lz/jdbc/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lz/jdbc/JdbcUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/lz/daopass/test/StudentDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/lz/jdbc/test/DriverDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/lz/jdbc/test/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/lz/jdbc/test/LambdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWebDay01/src/com/lz/web/test/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWebDay01/src/com/lz/web/test/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWebDay01/test/com/lz/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWebDay01/test/com/lz/test/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWebDay01/test/com/lz/web/test/PropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWebDay01/test/com/lz/web/test/PropertiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/JavaLineDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/JavaLineDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laughing/src/com/lz/learnning/Demo/TestDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laughing/test/com/lz/demo/TestDemo1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laughing/test/com/lz/demo/TestDemo1Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1eD8bfRklHmfmXNFw51L1qJTiRK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaWebDay01" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.07818608" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lz.daopass.dao.impl" />
+      <recent name="com.lz.daopass.test" />
+      <recent name="com.lz.jdbc.test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LambdaTest.testLamFiler">
+    <configuration name="LambdaTest.testLamFiler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWebDay04_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.jdbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.jdbc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.jdbc.test.LambdaTest" />
+      <option name="METHOD_NAME" value="testLamFiler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWebDay04_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.jdbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.jdbc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.jdbc.test.LambdaTest" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDAOTest.selectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWebDay04_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.daopass.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.daopass.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.daopass.test.StudentDAOTest" />
+      <option name="METHOD_NAME" value="selectList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDAOTest.selectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWebDay04_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.daopass.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.daopass.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.daopass.test.StudentDAOTest" />
+      <option name="METHOD_NAME" value="selectOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDAOTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWebDay04_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.daopass.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.daopass.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.daopass.test.StudentDAOTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LambdaTest.testList" />
+        <item itemvalue="JUnit.LambdaTest.testLamFiler" />
+        <item itemvalue="JUnit.StudentDAOTest.selectList" />
+        <item itemvalue="JUnit.StudentDAOTest.update" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09523937-cf57-4ef4-a80b-064748154c7a" name="Default Changelist" comment="" />
+      <created>1593844875185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593844875185</updated>
+      <workItem from="1593844876599" duration="21312000" />
+      <workItem from="1593910393661" duration="19771000" />
+      <workItem from="1593955998425" duration="1751000" />
+      <workItem from="1593996685981" duration="82000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="241" y="292" key="#SQL_Dialects" timestamp="1593918463453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="241" y="292" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1593918463453" />
+    <state x="698" y="333" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1593851756277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="698" y="333" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593851756277" />
+    <state x="552" y="171" width="1199" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593925014200">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="171" width="1199" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593925014200" />
+    <state x="1067" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1593921004221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1067" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593921004221" />
+    <state x="969" y="200" key="FileChooserDialogImpl" timestamp="1593866350583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="969" y="200" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593866350583" />
+    <state width="1871" height="261" key="GridCell.Tab.0.bottom" timestamp="1593939813650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593939813650" />
+    <state width="1871" height="261" key="GridCell.Tab.0.center" timestamp="1593939813650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593939813650" />
+    <state width="1871" height="261" key="GridCell.Tab.0.left" timestamp="1593939813649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593939813649" />
+    <state width="1871" height="261" key="GridCell.Tab.0.right" timestamp="1593939813650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1871" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593939813650" />
+    <state x="578" y="128" width="1141" height="903" key="SettingsEditor" timestamp="1593917419586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="578" y="128" width="1141" height="903" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593917419586" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1593846809674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1593846809674" />
+    <state x="898" y="353" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593846048871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="898" y="353" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1593846048871" />
+    <state x="1025" y="244" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593856827109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1025" y="244" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593856827109" />
+    <state x="550" y="52" key="new project wizard" timestamp="1593939808742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="52" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593939808742" />
+  </component>
+</project>
