@@ -49,7 +49,7 @@ public class EmployeeController {
 
     /**
      * 请求体参数 用对象封装
-     * @param employee
+     * @param employee 员工对象 封装参数
      * @return
      */
     @GetMapping("/{id}/{name}")
