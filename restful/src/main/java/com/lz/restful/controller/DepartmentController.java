@@ -2,10 +2,7 @@ package com.lz.restful.controller;
 
 import com.lz.restful.domain.Department;
 import com.lz.restful.domain.Employee;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,21 +48,39 @@ public class DepartmentController {
         return 水浒;
     }
 
+    /**
+     * 查询某个部门的某个员工
+     * @param id
+     * @param empId
+     * @return
+     */
 
     @GetMapping("/{id}/{empId}")
     public Employee list(@PathVariable Long id, @PathVariable Long empId){
-        Department 水浒 = new Department(id, "水浒", null);
-        System.out.println(水浒);
+        Department department = new Department(id, "水浒", null);
+        System.out.println(department);
         System.out.println("用户id"+empId);
         ArrayList<Employee> employees = new ArrayList<>();
-        Employee 花容 = new Employee(empId, "花容");
-        return 花容;
+        Employee employee = new Employee(empId, "employee");
+        return employee;
     }
 
-
-
-
-
+    /**
+     * 修改员工的信息  使用put请求  更新全部信息
+     * @param id
+     * @param empId
+     * @return 返回全新对象的信息
+     */
+    @PutMapping("/{id}/{empId}")
+    public Employee put(@PathVariable Long id, @PathVariable Long empId){
+        Department department = new Department(id, "水浒", null);
+        System.out.println(department);
+        System.out.println("用户id"+empId);
+        ArrayList<Employee> employees = new ArrayList<>();
+        Employee employee = new Employee(empId,department.getName());
+        return employee;
+    }
+    
 
 
 }

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lz.ssm.mapper.SalaryMapper" >
+  <resultMap id="BaseResultMap" type="com.lz.ssm.domain.Salary" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="money" property="money" jdbcType="DECIMAL" />
+    <result column="year" property="year" jdbcType="INTEGER" />
+    <result column="month" property="month" jdbcType="INTEGER" />
+    <result column="employee_id" property="employee.id" jdbcType="BIGINT" />
+    <result column="payout_id" property="payout.id" jdbcType="BIGINT" />
+    <result column="employeeName" property="employee.name"/>
+    <result column="payoutTitle" property="payout.title"/>
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from salary
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.lz.ssm.domain.Salary" useGeneratedKeys="true" keyProperty="id" >
+    insert into salary (money, year, month, 
+      employee_id, payout_id)
+    values (#{money,jdbcType=DECIMAL}, #{year,jdbcType=INTEGER}, #{month,jdbcType=INTEGER}, 
+      #{employee.id,jdbcType=BIGINT}, #{payout.id,jdbcType=BIGINT})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.lz.ssm.domain.Salary" >
+    update salary
+    set money = #{money,jdbcType=DECIMAL},
+      year = #{year,jdbcType=INTEGER},
+      month = #{month,jdbcType=INTEGER},
+      employee_id = #{employee.id,jdbcType=BIGINT},
+      payout_id = #{payout.id,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select id, money, year, month, employee_id, payout_id
+    from salary
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, money, year, month, employee_id, payout_id
+    from salary
+  </select>
+  <select id="selectForList" resultMap="BaseResultMap">
+    SELECT
+    s.id,
+	s. YEAR,
+	s. MONTH,
+	e.id as employee_id,
+	e. NAME as employeeName,
+	s.money,
+	sy.id as payout_id,
+	sy.title as payoutTitle
+	FROM
+	salary s
+	JOIN employee e ON s.employee_id=e.id
+    join systemdictionaryitem sy on s.payout_id=sy.id
+    <where>
+      <if test="keyword!=null">
+        and e.name like concat('%',#{keyword},'%')
+      </if>
+      <if test="minSalary != null">
+        and s.money>=#{minSalary}
+      </if>
+      <if test="maxSalary != null">
+        and s.money &lt;=#{maxSalary}
+      </if>
+      <if test="payoutId!=null">
+        and s.payout_id=#{payoutId}
+      </if>
+    </where>
+  </select>
+</mapper>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lz.ssm.mapper.RoleMapper">
+    <resultMap id="BaseResultMap" type="com.lz.ssm.domain.Role">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="sn" property="sn" jdbcType="VARCHAR"/>
+        <collection property="permissions" column="id" select="com.lz.ssm.mapper.PermissionMapper.selectByRoleId"/>
+    </resultMap>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from role
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+
+    <insert id="insert" parameterType="com.lz.ssm.domain.Role" useGeneratedKeys="true" keyProperty="id">
+    insert into role (name, sn)
+    values (#{name,jdbcType=VARCHAR}, #{sn,jdbcType=VARCHAR})
+  </insert>
+    <insert id="insertRelation">
+        insert into role_permission (role_id, permission_id)
+    values (#{id}, #{permissionId})
+    </insert>
+    <update id="updateByPrimaryKey" parameterType="com.lz.ssm.domain.Role">
+    update role
+    set name = #{name,jdbcType=VARCHAR},
+      sn = #{sn,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long">
+    select id, name, sn
+    from role
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, sn
+    from role
+  </select>
+    <select id="queryCount" resultType="java.lang.Integer">
+          select count(id)
+    from role
+    </select>
+
+    <select id="queryRole" resultType="com.lz.ssm.domain.Role">
+
+          select id, name, sn
+    from role
+ <!--   limit #{start} ,#{pageSize}-->
+
+    </select>
+
+    <select id="selectByEmployeeId" resultMap="BaseResultMap">
+    SELECT r.id, r.name, r.sn FROM role r JOIN employee_role er ON r.id = er.role_id
+    WHERE er.employee_id = #{id}
+    </select>
+    <select id="selectRoleIdByEmployeeId" resultType="java.lang.Long">
+        select role_id from employee_role where employee_id = #{id}
+    </select>
+    <delete id="deleteRoleIdByEmployeeId">
+        delete from employee_role where employee_id = #{id}
+    </delete>
+    <delete id="deletePermissionByRoleId">
+        delete from role_permission where role_id=#{roleId}
+    </delete>
+</mapper>

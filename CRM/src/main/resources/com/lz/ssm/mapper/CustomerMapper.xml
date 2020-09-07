@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lz.ssm.mapper.CustomerMapper" >
+  <resultMap id="BaseResultMap" type="com.lz.ssm.domain.Customer" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="age" property="age" jdbcType="INTEGER" />
+    <result column="gender" property="gender" jdbcType="INTEGER" />
+    <result column="tel" property="tel" jdbcType="VARCHAR" />
+    <result column="qq" property="qq" jdbcType="VARCHAR" />
+<!--    <result column="job_id" property="job.id" jdbcType="BIGINT" />-->
+<!--    <result column="source_id" property="source.id" jdbcType="BIGINT" />-->
+<!--    <result column="seller_id" property="seller.id" jdbcType="BIGINT" />-->
+<!--    <result column="input_user_id" property="inputUser.id" jdbcType="BIGINT" />-->
+    <result column="input_time" property="inputTime" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+      <result column="j_id" property="job.id"/>
+      <result column="j_title" property="job.title"/>
+
+      <result column="s_id" property="source.id"/>
+      <result column="s_title" property="source.title"/>
+
+      <result column="e_id" property="seller.id"/>
+      <result column="e_name" property="seller.name"/>
+      <result column="count" property="count"/>
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from customer
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.lz.ssm.domain.Customer" useGeneratedKeys="true" keyProperty="id" >
+    insert into customer (name, age, gender, 
+      tel, qq, job_id, source_id, 
+      seller_id, input_user_id, input_time, 
+      status)
+    values (#{name,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER}, #{gender,jdbcType=INTEGER}, 
+      #{tel,jdbcType=VARCHAR}, #{qq,jdbcType=VARCHAR}, #{job.id,jdbcType=BIGINT}, #{source.id,jdbcType=BIGINT},
+      #{seller.id,jdbcType=BIGINT}, #{inputUser.id,jdbcType=BIGINT}, #{inputTime,jdbcType=TIMESTAMP},
+      #{status,jdbcType=INTEGER})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.lz.ssm.domain.Customer" >
+    update customer
+    set name = #{name,jdbcType=VARCHAR},
+      age = #{age,jdbcType=INTEGER},
+      gender = #{gender,jdbcType=INTEGER},
+      tel = #{tel,jdbcType=VARCHAR},
+      qq = #{qq,jdbcType=VARCHAR},
+      job_id = #{job.id,jdbcType=BIGINT},
+      source_id = #{source.id,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+    <update id="updateSeller">
+        update customer set seller_id=#{sellerId}   where id=#{customerId}
+    </update>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select id, name, age, gender, tel, qq, job_id, source_id, seller_id, input_user_id, 
+    input_time, status
+    from customer
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, name, age, gender, tel, qq, job_id, source_id, seller_id, input_user_id, 
+    input_time, status
+    from customer
+  </select>
+  <select id="selectForList" resultMap="BaseResultMap">
+
+      SELECT
+      c.id,
+      c.NAME,
+      c.age,
+      c.gender,
+      c.tel,
+      c.qq,
+      c.job_id,
+      c.source_id,
+      c.seller_id,
+      c.input_user_id,
+      c.input_time,
+      c.STATUS,
+      j.id as j_id,
+      j.title as j_title,
+      s.id as s_id,
+      s.title as s_title,
+      e.id as e_id,
+      e.name as e_name,
+      i.id as i_id,
+      i.name as i_name,
+      count(cy.customer_id) as count
+      FROM
+      customer c left join systemdictionaryitem j on c.job_id = j.id
+      left join systemdictionaryitem s on c.source_id = s.id
+      left join employee e on c.seller_id = e.id
+      left join employee i on c.input_user_id= i.id
+      LEFT JOIN customertracehistory cy on cy.customer_id=c.id
+  <where>
+      <if test="status!=null and status >= 0">
+          and c.STATUS= #{status}
+      </if>
+      <if test="sellerId!=null and sellerId >0 ">
+          and c.seller_id = #{sellerId}
+      </if>
+      <if test=" keyword !=null and keyword != ''">
+          and (c.name like concat('%',#{keyword},'%') or c.tel like concat('%',#{keyword},'%'))
+      </if>
+  </where>
+      GROUP BY c.id
+  </select>
+</mapper>
